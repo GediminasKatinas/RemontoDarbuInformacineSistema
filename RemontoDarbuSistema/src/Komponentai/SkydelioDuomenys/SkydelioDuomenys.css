@@ -1,0 +1,204 @@
+.Skydelis {
+    margin: 30px;
+}
+
+/*is tutorialo imti css"/
+/* Text Size */
+.small-text {
+    font-size: 12px;
+}
+
+.more-small-text {
+    font-size: 10px;
+}
+
+.super-text {
+    font-size: 8px;
+}
+
+/* Border Radius */
+.square-radius {
+    border-radius: 5px;
+}
+
+.more-square-radius {
+    border-radius: 15px;
+}
+
+.small-radius {
+    border-radius: 2px;
+}
+
+/* Modal */
+.modal .btn-close {
+    background: url("");
+    background-repeat: no-repeat;
+    background-size: 12px;
+}
+
+.blue-border-bottom {
+    border-bottom: 1px solid #0DCAF0;
+}
+
+.modal .btn-close:focus, .modal .modal-body .btn:focus {
+    box-shadow: none;
+}
+
+.profile-picture-modal {
+    width: 70px;
+}
+
+/* For Date Field */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: url("") no-repeat;
+}
+
+input[type="date"]:focus {
+    background-color: transparent;
+}
+
+input[type="text"]:focus {
+    background-color: transparent;
+}
+
+/* For Hide Element */
+.hide {
+    visibility: hidden;
+}
+
+/* For Side Item Active */
+.side-item-active {
+    background-color: #0DCAF0;
+    border-radius: 5px;
+}
+
+.side-item-active a {
+    color: white;
+}
+
+.side-item-active .side-icon {
+    color: #0DCAF0;
+}
+
+/* For Side Item Hover */
+.nav-item:hover {
+    background-color: #0DCAF0;
+    border-radius: 5px;
+}
+
+.nav-item:hover .dark-silver-text {
+    color: white;
+}
+
+.nav-item:hover .side-icon {
+    color: white;
+}
+
+/* For Language Button */
+.language-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+
+/* For Logout Button */
+.logout-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* For Switch */
+.form-switch, .form-check-input, .form-check-label {
+    cursor: pointer;
+}
+
+/* For Notification */
+.notification-badge {
+    padding: 2px;
+}
+
+/* For Profile Picture */
+.profile-picture {
+    width: 30px;
+}
+
+/* For Search Bar */
+.search-click {
+    width: 50px;
+    height: 10px;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+.search-click-btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.search-click-btn:focus .search-click {
+    width: 300px;
+    visibility: visible;
+}
+
+.search-click:focus {
+    width: 300px;
+    visibility: visible;
+}
+
+.search-click {
+    position: relative;
+    overflow: hidden;
+    height: 35px;
+    outline: none;
+    outline: 2px solid #053fff4f;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.search-click input {
+    background: transparent;
+    outline: none;
+    position: absolute;
+    width: 300px;
+    height: 35px;
+}
+
+/* For User Section */
+.user-mobile-tablet-view {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .user-desktop-view {
+        display: none !important;
+    }
+
+    .user-mobile-tablet-view {
+        display: block;
+    }
+}
+
+/* For Select Field Icon */
+.overview .form-select {
+    background-image: url("");
+}
+
+/* For Chart */
+#chart {
+    height: 250px;
+    width: 100%;
+}
+
+.canvasjs-chart-credit {
+    display: none;
+}
+
+/* For Overview Details */
+@media only screen and (max-width: 1024px) {
+    .overview .col {
+        text-align: center;
+    }
+}

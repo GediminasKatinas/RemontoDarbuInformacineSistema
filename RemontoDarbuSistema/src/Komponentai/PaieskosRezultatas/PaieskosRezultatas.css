@@ -1,0 +1,75 @@
+.paieskosrezultatas {
+    display: flex;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+  }
+
+.paieskosrezultatas:hover {
+    opacity: 0.8;
+}
+
+.paieskosrezultatas__infoTop {
+    width: 40vw;
+}
+
+.paieskosrezultatas__infoTop > h3 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.paieskosrezultatas__infoTop > p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: gray;
+  }
+  
+.paieskosrezultatas__infoBottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.paieskosrezultatas__star {
+    color: red;
+}
+
+.paieskosrezultatas__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.paieskosrezultatas__heart {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+.paieskosrezultatass__img{
+    object-fit: fill;
+    width:400px;
+    height:300px;
+    width: 100%;
+  }
+  
+.paieskosrezultatas__stars {
+    display: flex;
+    align-items: center;
+}
+
+.paieskosrezultatass__price > p {
+    text-align: left;
+  }
+
+.paieskosrezultatass__price {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+
+
+  

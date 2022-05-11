@@ -1,0 +1,33 @@
+.meistro-rezervacijos table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.meistro-rezervacijos td {
+    font-size: 13px;
+}
+.meistro-rezervacijos tr:hover {
+    background-color: #f2f2f2;
+}
+
+.meistro-rezervacijos tr:nth-child(even){
+    background-color: #f2f2f2
+}
+
+.meistro-rezervacijos .table-container {
+    overflow-x: auto;
+}
+.meistro-rezervacijos th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.meistro-rezervacijos tr {
+    cursor: pointer;
+}
+.meistro-rezervacijos th {
+    color: rgb(63, 62, 62);
+    font-size: 14px;
+}

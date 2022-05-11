@@ -1,0 +1,85 @@
+.baneris {
+  position:relative;
+}
+
+.baneris__info {
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    height: 50vh;
+    width: 300px;
+}
+
+.baneris__search {
+    display: flex;
+    flex-direction: column;
+}
+.karusele{
+  z-index:-1;
+
+}
+
+.baneris__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+
+.baneris__info > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.baneris__info > button:hover {
+    background-color: white;
+    color: #ff7779;
+  }
+  
+
+.baneris__info > h5 {
+    margin-top: 10px;
+}
+.slider .slider-text-container {
+  margin-top: -6px;
+  z-index:-1;
+
+}
+.test h1{
+  font-size: 5em;
+  font-weight: 800;
+  color: #ffffff;
+  width: 100%;
+  line-height: 0.8;
+  margin-bottom: 0.3em;
+  text-align:center; 
+
+}
+.test button{
+  background-color: #ffffff;
+  font-size: 0.9em;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  padding: 0.5em 1.5em;
+}
+
+@media only screen and (max-width: 599px) {
+  .slider .hide-slider {
+      display: none !important;
+      z-index:-1;
+
+  }
+
+  .slider .slider-title {
+      font-size: 26px;
+      z-index:-1;
+
+  }
+}

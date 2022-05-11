@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RemontoDarbuSistema_Backend.Controllers.JobApplicationsController">
+    <Position X="4.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgABACCAAEAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Controllers\JobApplicationsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RemontoDarbuSistema_Backend.Controllers.MessagesController" Collapsed="true">
+    <Position X="8.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAAAAAAAAAABEAAAAAAAAAAAAAAAgAAAAAAAACAAAA=</HashCode>
+      <FileName>Controllers\MessagesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RemontoDarbuSistema_Backend.Controllers.PageReviewsController" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAJQABAAAAAAAEAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\PageReviewsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RemontoDarbuSistema_Backend.Controllers.ReservationsController" Collapsed="true">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABEAAQAAAABAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Controllers\ReservationsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RemontoDarbuSistema_Backend.Controllers.ServicesController" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAQAAAACBAAAAAAAAAAAAAAAAAAAAAAAEAAAAEA=</HashCode>
+      <FileName>Controllers\ServicesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RemontoDarbuSistema_Backend.Controllers.UserReservationsController" Collapsed="true">
+    <Position X="10" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAgABAAAAAAAIAEAAACAAAAIAAAACAAAAAA=</HashCode>
+      <FileName>Controllers\UserReservationsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RemontoDarbuSistema_Backend.Controllers.UsersController" Collapsed="true">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAAAAAAAAAABQAEAAAAAAAACAAAAAAAMIAAAAAAAAA=</HashCode>
+      <FileName>Controllers\UsersController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RemontoDarbuSistema_Backend.Models.JobApplication">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACAAAAACAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\JobApplication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,40 @@
+.meistras form {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+@media (min-width: 991px) and (max-width:1200px) {
+    .skill-block {
+        padding: 32px !important
+    }
+}
+
+@media (min-width: 1200px) {
+    .skill-block {
+        padding: 56px !important
+    }
+}
+@media only screen and (max-width: 768px) {
+    .meistras form {
+        width: 100%;
+    }
+
+    .meistras .meistras-title {
+        font-size: 18px !important;
+    }
+}
+.bg-black {
+    background: #000
+}
+
+.skill-block {
+    width: 100%
+}
+.meistras img {
+    width: 100%;
+    height: 100%
+}
+
+body {
+    background-color: #eeeeee
+}
