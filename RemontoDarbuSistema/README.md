@@ -1,2 +1,2 @@
 Remonto darbu informacinė sistema.
-Bakalaurinis darbas
+Bakalaurinis darbas.
